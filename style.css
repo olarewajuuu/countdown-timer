@@ -1,0 +1,109 @@
+body{
+   
+    background-color:hsl(234, 17%, 12%);
+    /* background-image: linear-gradient(to bottom, hsl(234, 17%, 12%) , hsl(300, 31%, 7%)); */
+    background-image: url(./images/bg-stars.svg);
+
+}
+
+legend{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 120px 0px 80px 0px;
+    color: white;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+  
+}
+
+
+.box{
+    width: 120px;
+    height: 120px;
+    background-color:hsl(236, 21%, 26%);
+    border-radius: 10px;
+    /* box-shadow: 0 8px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.5);
+
+
+}
+
+.box h1{
+    padding: 30px 0px 0px 0px;
+    font-size: 60px;
+    color: white;
+}
+
+.content p{
+    color: white;
+}
+
+.footer{
+    background-image: url(./images/pattern-hills.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icons{
+    margin:30px 0px 0px 600px;
+}
+
+.footer img{
+    margin: 60px 0px 0px 0px ;
+    padding: 20px;
+    width: 20px;
+    
+}
+
+.footer img :hover{
+   color: blueviolet;
+}
+@media screen and (max-width: 375px){
+
+
+body{
+   font-size: 10px;
+    
+    }
+
+.card{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+.box{
+        width: 80px;
+        height: 80px;
+        background-color:hsl(236, 21%, 26%);
+        border-radius: 10px;
+        box-shadow: 0 8px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+
+.footer{
+        background-image: url(./images/pattern-hills.svg);
+        background-size: 400px 150px;
+        background-repeat: no-repeat;
+    }
+.icons{
+        margin:0px 0px 0px 140px;
+    }
+    
+.footer img{
+        margin: 60px 0px 0px 0px ;
+        padding: 10px;
+        width: 20px;
+        
+    }
+
+}
